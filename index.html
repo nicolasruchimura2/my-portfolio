@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Nicolas Uchimura — Software Engineer</title>
+  <meta name="description" content="Nicolas Uchimura. Software engineering, Java and Python. Informatics Engineering at the University of Aveiro.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23121416'/%3E%3Ctext x='10' y='43' font-size='32' font-family='monospace' fill='%23bed4bc'%3En_%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="shell header">
+    <a class="brand" href="#home" aria-label="Nicolas Uchimura home">nu<span>_</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#approach">Approach</a>
+      <a href="#contact">Let's connect <span class="nav-symbol">[ + ]</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="shell hero" id="home">
+      <div class="hero-intro">
+        <p class="eyebrow">SOFTWARE ENGINEER / JAVA & PYTHON</p>
+        <h1>Nicolas<br><span>Uchimura<span class="period">.</span></span></h1>
+        <p class="hero-description">Java and Python.<br>Informatics Engineering at Aveiro.</p>
+        <a class="primary" href="#about">About me</a>
+      </div>
+      <div class="portrait-composition">
+        <span class="portrait-word" aria-hidden="true">Nicolas<br>Rosselli<br>Uchimura</span>
+        <div class="photo-frame">
+          <img class="portrait" src="foto.png" alt="Nicolas Uchimura">
+          <div class="photo-caption">
+            <span>Nicolas Uchimura</span>
+            <span>2026</span>
+          </div>
+        </div>
+        <span class="portrait-note">Based in Aveiro</span>
+      </div>
+      <div class="hero-footer">
+        <span>INFORMATICS ENGINEERING<br><strong>University of Aveiro</strong></span>
+        <span class="code-comment">// currently studying at UA</span>
+        <a href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+      </div>
+    </section>
+    <section class="section shell about" id="about">
+      <div class="section-label">
+        <span>01 — ABOUT</span>
+        <span class="tiny-plus" aria-hidden="true">+</span>
+      </div>
+      <div class="about-content">
+        <h2>About me.</h2>
+        <div class="about-columns">
+          <p>I'm Nicolas, a software engineer studying Informatics Engineering at the University of Aveiro, working mainly with Java and Python.</p>
+          <p>I work on software development and system design, with attention to how the parts connect and how the result stays usable.</p>
+        </div>
+        <div class="stack">
+          <span class="eyebrow">CURRENT TOOLKIT</span>
+          <span>Java</span>
+          <span>Python</span>
+          <span>Git · Collaboration</span>
+          <span>C</span>
+        </div>
+      </div>
+    </section>
+    <section class="section shell approach" id="approach">
+      <div class="section-label">
+        <span>02 — APPROACH</span>
+        <span class="tiny-plus" aria-hidden="true">+</span>
+      </div>
+      <div>
+        <h2>How I work.</h2>
+        <div class="principles">
+          <article>
+            <span class="number">[01]</span>
+            <h3>Understand the problem.</h3>
+            <p>Map the context, the constraints, and how the parts connect.</p>
+          </article>
+          <article>
+            <span class="number">[02]</span>
+            <h3>Keep it readable.</h3>
+            <p>Write code and structure that another person can follow.</p>
+          </article>
+          <article>
+            <span class="number">[03]</span>
+            <h3>Work with people.</h3>
+            <p>Discuss trade-offs, take feedback, and keep improving.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="contact-wrap" id="contact">
+      <div class="shell contact">
+        <div class="contact-copy">
+          <p class="eyebrow">03 — CONNECTIONS</p>
+          <h2>Say <em>hello.</em></h2>
+          <p>Open to internships, projects,<br>and conversations about software.</p>
+          <span class="contact-note">GitHub, LinkedIn, and email below.</span>
+        </div>
+        <div class="terminal">
+          <div class="terminal-bar">
+            <div class="traffic" aria-hidden="true"><i></i><i></i><i></i></div>
+            <span>nicolas — zsh</span>
+            <span aria-hidden="true">⌘</span>
+          </div>
+          <div class="terminal-body">
+            <p class="terminal-muted">Nicolas Uchimura — portfolio</p>
+            <p><span class="prompt">nicolas@portfolio</span> <span class="terminal-muted">~ %</span> whoami</p>
+            <p class="terminal-answer">Nicolas Uchimura<br>Software Engineer · Java · Python</p>
+            <p><span class="prompt">nicolas@portfolio</span> <span class="terminal-muted">~ %</span> cat connections</p>
+            <div class="connection-list">
+              <span>GitHub <small>nicolasruchimura2</small></span>
+              <span>LinkedIn <small>Nicolas Uchimura</small></span>
+              <span>Email <small>nicolasruchimura@gmail.com</small></span>
+            </div>
+            <div id="terminal-output" aria-live="polite"></div>
+            <form id="terminal-form">
+              <label for="command">
+                <span class="prompt">nicolas@portfolio</span> <span class="terminal-muted">~ %</span>
+                <span class="sr-only">Terminal command</span>
+              </label>
+              <input id="command" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="type help" aria-describedby="terminal-help">
+            </form>
+            <p id="terminal-help" class="terminal-hint">Try: help, about, skills, education, clear</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="shell footer">
+    <a class="brand" href="#home" aria-label="Back to top">nu<span>_</span></a>
+    <p>© <span id="year"></span> Nicolas Uchimura</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
